@@ -6,8 +6,8 @@ import TaskList from './components/TaskList';
 
 export default function Home() {
   const [tasks, setTasks] = useState([
-    {id: 1, text: "Testing number 1", completed: false},
-    {id: 2, text: "Testing number 2", completed: true}
+    {id: 1, text: "Баха лучший", completed: false},
+    {id: 2, text: "Улдана топ", completed: true}
   ])
   const [inputValue, setInputValue] = useState('')
   const [filter, setFilter] = useState('all')
